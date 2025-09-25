@@ -1,0 +1,23 @@
+    body {
+        background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7);
+        background-size: 300% 100%;
+        animation: slideGradient 10s infinite alternate linear;
+    }
+
+    @keyframes slideGradient {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+
+    div {
+        border-radius: 50%;
+        animation: transform;
+    }    
+
+    a {
+        cursor: grabbing;
+        text-indent: 10%;
+        
+    }
+
+    
